@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #1c1c1c;
+    overflow: hidden;
+}
+video{
+    object-fit: cover;
+}
+
+.screen video{
+    object-fit: fill;
+}
+
